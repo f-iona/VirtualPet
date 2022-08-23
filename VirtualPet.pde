@@ -23,8 +23,9 @@ fill(0,0,0);
 ellipse(233,200,20,20);
 ellipse(316,200,20,20);
 noStroke();
-fill(129,92,92); //ears
-arc(330,100,100,100,0, QUARTER_PI);
+fill(129,92,92);//ears - change color to pink ish 
+arc(330,103,100,100,0, QUARTER_PI);
 
+fill(129,92,92);//feet
 }
 
