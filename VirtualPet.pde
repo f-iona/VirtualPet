@@ -5,6 +5,10 @@ void setup(){
 }
 
 void draw(){
+strokeWeight(10);
+stroke(181, 112, 127);
+noFill();
+arc(441, 240, 100, 100, radian(0),radian(180));//tail 
 
 stroke(247,132,182);
 strokeWeight(5);
@@ -34,10 +38,7 @@ ellipse(320,200,45,45);
 fill(0,0,0);
 ellipse(233,200,20,20);
 ellipse(316,200,20,20);
-strokeWeight(10);
-stroke(181, 112, 127);
-noFill();
-arc(441, 178, 100, 100,PI, PI+QUARTER_PI);//tail - fix if time
+
 
 
 strokeWeight(4);
