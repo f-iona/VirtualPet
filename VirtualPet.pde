@@ -8,7 +8,7 @@ void draw(){
 strokeWeight(10);
 stroke(181, 112, 127);
 noFill();
-arc(441, 240, 100, 100, radian(0),radian(180));//tail 
+arc(441, 240, 100, 100, radians(0),radians(180));//tail 
 
 stroke(247,132,182);
 strokeWeight(5);
