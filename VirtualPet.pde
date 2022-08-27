@@ -8,7 +8,7 @@ void draw(){
 strokeWeight(10);
 stroke(181, 112, 127);
 noFill();
-arc(441, 240, 100, 100, radians(0),radians(180));//tail 
+arc(441, 340, 100, 100, radians(0),radians(180));//tail 
 
 stroke(247,132,182);
 strokeWeight(5);
@@ -39,6 +39,12 @@ fill(0,0,0);
 ellipse(233,200,20,20);
 ellipse(316,200,20,20);
 
+
+//droplet
+noStroke();
+fill(255,255,255);
+ellipse(260,279,11,24);
+triangle(260,260,255, 275, 265,275);
 
 
 strokeWeight(4);
