@@ -44,9 +44,8 @@ strokeWeight(4);
 stroke(0,0,0);
 fill(129,92,92);//ears
 arc(330,103,100,100,0, QUARTER_PI);// good ear
-translate(width/2f,height/2f);
-scale(-1,1);
-arc(220, 103, 100, 100,0, QUARTER_PI);// bad ear fix this one
+rotate(radians(135));
+arc(-85, -230, 100, 100,0, QUARTER_PI);//good ear 2
 
 
 
